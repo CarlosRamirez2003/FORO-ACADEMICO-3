@@ -1,0 +1,132 @@
+\documentclass[12pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{geometry}
+\usepackage{times}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{parskip}
+\usepackage{titlesec}
+\usepackage{hyperref}
+
+% Márgenes obligatorios
+\geometry{
+    top=2.4cm,
+    bottom=2.4cm,
+    left=2.4cm,
+    right=2.4cm
+}
+
+% Interlineado cerrado
+\renewcommand{\baselinestretch}{1.0}
+
+% Subtítulos en negrita, sin punto final, alineados a la izquierda
+\titleformat{\section}[block]{\bfseries}{\thesection}{1em}{}
+\titlespacing*{\section}{0pt}{1.5ex plus 1ex minus .2ex}{1ex plus .2ex}
+
+% Sin sangría
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+% TÍTULO
+\begin{center}
+    \textbf{\uppercase{la seguridad en la informática}}\\[1ex]
+    \textit{C. A. Ramírez García} \\
+    \textit{7690-21-10603  Universidad Mariano Gálvez} \\
+    \textit{Seminario de Tecnologías de Información} \\
+    \textit{cramirezg19@miumg.edu.gt}
+\end{center}
+
+\section*{Repositorio}
+https://github.com/CarlosRamirez2003/FORO-ACADEMICO-3.git
+% RESUMEN
+\section*{Resumen}
+La seguridad de la información es fundamental en el ámbito tecnológico, ya que garantiza la protección de los datos y la confianza de los usuarios. Una de las prioridades es prevenir fugas de información, que pueden originarse por malware o por acciones internas negligentes o malintencionadas. Este campo se sustenta en los principios de la tríada CIA: Confidencialidad, que asegura que solo personas autorizadas accedan a la información; Integridad, que preserva la exactitud y consistencia de los datos; y Disponibilidad, que garantiza el acceso continuo a los recursos cuando sea necesario.
+
+La seguridad informática abarca no solo los datos, sino también los activos tecnológicos como redes, dispositivos e infraestructuras digitales. Incluye disciplinas como la seguridad en la nube, endpoints, redes, aplicaciones, internet y dispositivos IoT/OT. A menudo se confunde con la ciberseguridad, que es un subconjunto más especializado centrado en amenazas digitales como ransomware, phishing o malware.
+
+Mientras la ciberseguridad se orienta a defenderse de ciberataques, la seguridad de TI protege toda la infraestructura técnica, combinando soluciones digitales (como firewalls o cifrado) y físicas (como controles de acceso o vigilancia). Su objetivo global es salvaguardar los sistemas, redes y datos de accesos no autorizados, alteraciones o interrupciones, asegurando así la continuidad y confiabilidad de los servicios digitales.
+
+
+% PALABRAS CLAVE
+\textbf{Palabras clave:} 
+  malware , ciberseguridad , informática , nube , privacidad
+
+% DESARROLLO DEL TEMA
+\section*{Desarrollo del tema}
+la seguridad de la información es una de las practicas principales en el mundo de la informática, una de las tareas principales de los ingenieros / empresas es velar por los datos de los usuarios tener la confianza del usuario con la seguridad necesaria. 
+
+una de las principales medidas que se debe tomar en la seguridad informática es la fuga de datos, es una de las principales medidas que se deben tomar ya que se puede dar por medio de malware o por la misma fuga de los empleados empresariales 
+
+la seguridad de la información se basa en la trada de la CIA lo cual significa:
+
+Confidencialidad : la privacidad de los datos es indispensable el velar por el control, de accesos de la prevención de la seguridad de datos.
+Integridad: se refiere a la exactitud , precisión y fiabilidad de la información, y tiene como objetivo evitar la manipulación o modificación no autorizada.
+disponibilidad: el tener los datos disponibles y accesibles en todo momento es indispensable para qu en  cualquier momento se pueda acceder a ellos.
+
+ahora bien la seguridad de la informática ya no se basa solo en los datos si no que es proteger los activos informáticos tales como las redes, dispositivos digitales , y si también filtraciones de datos y ciberataques.
+
+la seguridad informática incluyen disciplinas digitales  como la seguridad en la nube , seguridad en la red y seguridad de aplicaciones a menudo se confunde con la cibernetica , una disciplina mas estrecha la cual se basa mas en las organizaciones de ataques digitales, como ransomware, malware y estafas de phishing.
+
+
+¿Qué es la seguridad de TI?
+La seguridad informática, que es la abreviatura de seguridad de la Tecnología de la Información, es la práctica de proteger el activo informático de una organización -sistemas informáticos, redes, dispositivos digitales, datos (de accesos no autorizados, filtración de datos, ciberataques y otras actividades maliciosas). 
+
+El ámbito de la seguridad informática es amplio y a menudo implica una mezcla de tecnologías y soluciones de seguridad. Trabajan conjuntamente para hacer frente a las vulnerabilidades de los dispositivos digitales, las redes informáticas, los servidores, las bases de datos y las aplicaciones informáticas.
+
+Los ejemplos más citados de seguridad informática incluyen disciplinas de seguridad digital, como seguridad endpoint, seguridad en la nube, seguridad de red y seguridad de aplicaciones. Pero la seguridad de TI también incluye medidas de seguridad física (por ejemplo, cerraduras, tarjetas de identificación, cámaras de vigilancia) necesarias para proteger edificios y dispositivos que albergan datos y activos de TI.
+
+La seguridad informática a menudo se confunde con la seguridad cibernética, una disciplina más estrecha que es técnicamente un subconjunto de seguridad informática. La ciberseguridad se centra principalmente en proteger a las organizaciones de ataques digitales, como ransomware, malware y estafas de phishing. Mientras que la seguridad de TI brinda servicios a toda la infraestructura técnica de una organización, incluidos sistemas de hardware, aplicaciones de software y endpoints, como computadoras portátiles y dispositivos móviles. La seguridad de TI también protege la red de la empresa y sus diversos componentes, como data centers físicos y basados en la nube.
+
+
+Tipos de seguridad informática
+Cloud security
+La seguridad en la nube aborda las amenazas cibernéticas externas e internas a la infraestructura, las aplicaciones y los datos basados en la nube de una organización..
+
+Seguridad de endpoint
+La seguridad endpoint protege a los usuarios finales y a los dispositivos de endpoints, como equipos de escritorio, computadoras portátiles, teléfonos celulares y servidores, contra ataques cibernéticos. 
+
+Seguridad de la red
+La seguridad de la red tiene tres objetivos principales: El primer objetivo es impedir el acceso no autorizado a los recursos de la red.
+
+Seguridad de las aplicaciones
+La seguridad de las aplicaciones se refiere a las medidas que toman los desarrolladores mientras crean una aplicación.
+
+Seguridad en Internet
+La seguridad de Internet protege los datos y la información confidencial transmitidos, almacenados o procesados por navegadores o aplicaciones.autenticación, puertas de enlace web, protocolos de cifrado y, sobre todo, cortafuegos.
+
+Seguridad de IoT y tecnología operativa (OT)
+La seguridad de Internet de las cosas (IoT) se enfoca en prevenir sensores y dispositivos conectados a Internet, por ejemplo cámaras de timbre, electrodomésticos inteligentes, automóviles modernos. IoT tiene como objetivo evitar que los hackers tomen el control de estos dispositivos.
+
+% OBSERVACIONES Y COMENTARIOS
+\section*{Observaciones y comentarios}
+
+La nube llegó para quedarse, pero nos obliga a repensar la seguridad. Confiar en que los datos estarán seguros solo con una contraseña ya no es suficiente. Necesitamos verificar siempre quién accede y desde dónde, como si desconfiáramos por defecto (zero-trust).
+
+Cada vez tenemos más dispositivos conectados en casa y el trabajo: desde bombillas inteligentes hasta sensores industriales. El problema es que muchos se fabrican sin mucha seguridad. Si no los actualizamos regularmente, pueden convertirse en puertas traseras para los atacantes.
+
+Por mucha tecnología que tengamos, el factor humano sigue siendo crítico. Un descuido al hacer clic en un enlace malicioso o al compartir una contraseña puede echar por tierra todas las defensas. Educar y concientizar al equipo no es un gasto, es una inversión.
+
+La inteligencia artificial ayuda a detectar comportamientos sospechosos de forma automática, pero no es infalible. A veces se activa por actividades normales (falsas alarmas). Por eso, el criterio humano sigue siendo necesario para interpretar y tomar decisiones.
+
+Contar con estándares y marcos de trabajo es como tener un mapa para construir una estrategia de seguridad. Pero cada organización es distinta; lo que le funciona a una, puede no servirle a otra. Adaptar esas guías a la realidad propia es lo que marca la diferencia.
+
+% CONCLUSIONES
+\section*{Conclusiones}
+La seguridad de la información es un pilar fundamental para garantizar la confidencialidad, integridad y disponibilidad de los datos, basándose en el modelo de la tríada CIA.
+
+La prevención de fugas de información requiere un enfoque multifacético que combine medidas técnicas, humanas y organizativas.
+
+La seguridad informática abarca un espectro amplio que incluye disciplinas como la seguridad en la nube, endpoints, redes y aplicaciones, entre otras.
+
+
+% BIBLIOGRAFIA
+\section*{E-Grafia}
+
+https://www.netacad.com/es/cybersecurity
+
+https://www.ibm.com/mx-es/think/topics/it-security
+
+https://www.cloudflare.com/es-es/learning/security/what-is-information-security/
+\end{document}
